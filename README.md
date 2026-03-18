@@ -76,7 +76,7 @@ cd educational-recommender-system
 
 ---
 
-### 2️⃣ Create and activate virtual environment
+### 2️⃣ Create and activate virtual environment (Recommended to avoid dependency conflicts. The project can also run using a global Python environment.)
 
 #### Windows (PowerShell)
 
@@ -193,7 +193,9 @@ http://127.0.0.1:8000/docs
 ### Example API Request
 
 ```
-GET /recommend/{user_id}
+GET /users/{user_id}/history
+GET /recommend/content/{user_id}
+GET /recommend/hybrid/{user_id}
 ```
 
 ---
