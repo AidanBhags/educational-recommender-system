@@ -1,13 +1,3 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environment
-venv/
-.env/
-
 # Large data
 data/oulad/*
 data/raw/*
@@ -19,7 +9,16 @@ data/processed/*
 # Models
 models/*
 !models/.gitkeep
-!models/.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
 
 # OS
 .DS_Store
