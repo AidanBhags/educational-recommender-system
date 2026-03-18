@@ -1,0 +1,8 @@
+{
+  "user_id": "28400",
+  "history_file": "recommendations\\user_28400_history.csv",
+  "content_recommendations_file": "recommendations\\user_28400_content_recommendations.csv",
+  "hybrid_recommendations_file": "recommendations\\user_28400_hybrid_recommendations.csv",
+  "content_recommendations_count": 10,
+  "hybrid_recommendations_count": 10
+}

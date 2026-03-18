@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Large data
+data/oulad/
+data/raw/
+data/processed/
+
+# Models
+models/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
